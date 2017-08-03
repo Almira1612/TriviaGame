@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>TraviaGame</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+   
+  </head>
+
+  <body>
+
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/javascript/app.js"></script>
+<div id="GameStart">
+<button type="submit" class="btn btn-default" id="Start">Start</button>
+</div>
+<div id="GameEnd">
+<h2>Game End</h2>
+<p>Correct Answers: <span id="correct"></span></p>
+<p>Wrong Answers: <span id="wrong"></span></p>
+<p>No Answers: <span id="no"></span></p>
+</div>
+<div id="transbox">
+ 
+   <form>
+     
+     
+     <h1>Trivia Game!!</h1>
+     <p>Time Remaining: <span id="remain"></span> Seconds</p>
+     <div class="content">
+     <hr>
+     <p>1. What kind of animal is Australia's koala?</p>
+     <label class="checkbox-inline">
+       <input type="checkbox" id="q1" value="option1"> Bear
+     </label>
+     <label class="checkbox-inline">
+        <input type="checkbox" id="q1" value="option2"> Bird
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q1" value="option3"> Cat
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q1" value="option4"> Marsupial
+     </label>
+     </hr>
+     <hr>
+     <p>2. When paleontologist Jenny Clack from Cambridge University discovered a new fossil amphibian in an old swamp, she gave it the name of Eucritta melanolimnetes.</p>
+     <label class="checkbox-inline">
+       <input type="checkbox" id="q2" value="option1"> The twelve legged spiderman
+     </label>
+     <label class="checkbox-inline">
+        <input type="checkbox" id="q2" value="option2"> The fly of horror
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q2" value="option3"> The creature from the black lagoon
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q2" value="option4"> The headless cockroach
+     </label>
+     </hr>
+     <hr>
+     <p>3. Black Caviar, the champion little racehorse mare from Australia had an astounding percentage of wins in all her top of the range races. What percentage was this?</p>
+     <label class="checkbox-inline">
+       <input type="checkbox" id="q3" value="option1"> 99%
+     </label>
+     <label class="checkbox-inline">
+        <input type="checkbox" id="q3" value="option2"> 100%
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q3" value="option3"> 98%
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q3" value="option4"> 97%
+     </label>
+     </hr>
+     <hr>
+     <p>4. Human beings are identified by their fingerprints. How are dogs identified?</p>
+     <label class="checkbox-inline">
+       <input type="checkbox" id="q4" value="option1"> By their nose prints
+     </label>
+     <label class="checkbox-inline">
+        <input type="checkbox" id="q4" value="option2"> By their back paw prints
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q4" value="option3"> By their front paw prints
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q4" value="option4"> By their tongue prints
+     </label>
+     </hr>
+     <hr>
+     <p>5. Remaining with dogs temporarily, when USA President Kennedy's daughter was given a puppy by Russian Premier Nikita Khrushchev, from one of the dogs used in the early days of Russian space flights, by what name did President Kennedy refer to its later puppies?</p>
+     <label class="checkbox-inline">
+       <input type="checkbox" id="q5" value="option1"> Soviet sausage dogs
+     </label>
+     <label class="checkbox-inline">
+        <input type="checkbox" id="q5" value="option2"> Khrushchev's canines
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q5" value="option3"> Pupniks
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q5" value="option4"> Russian rottweilers
+     </label>
+     </hr>
+     <hr>
+     <p>6. The beautiful turquoise parrot dramatically declined in numbers between 1875 and 1895 in Australia. What was the reason for this?</p>
+     <label class="checkbox-inline">
+       <input type="checkbox" id="q6" value="option1"> They were used in pie fillings
+     </label>
+     <label class="checkbox-inline">
+        <input type="checkbox" id="q6" value="option2"> Their feathers were used in hat making
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q6" value="option3"> They were trapped for their fur
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q6" value="option4"> They were preyed on by anacondas
+     </label>
+     </hr>
+     <hr>
+     <p>7. In 2008, a group of European scientists announced the "startling" fact that when cattle and deer are resting or grazing, they align their bodies in which direction?</p>
+     <label class="checkbox-inline">
+       <input type="checkbox" id="q7" value="option1"> North-south
+     </label>
+     <label class="checkbox-inline">
+        <input type="checkbox" id="q7" value="option2"> South-east
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q7" value="option3"> East-west
+     </label>
+     <label class="checkbox-inline">
+      <input type="checkbox" id="q7" value="option4"> North-west
+     </label>
+     
+     </hr>
+  <hr>
+  <button type="submit" class="btn btn-default">Done</button>
+  </hr>
+</form>
+ 
+</div>
+</div>
+  <footer>
+      <p>&copy; 2017 Aimila Maimaitijiang </p>
+ 
+</footer>
+
+<meta name="viewport" content="width=device-width">
+  </body>
+  </html>

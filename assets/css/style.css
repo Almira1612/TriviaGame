@@ -1,0 +1,66 @@
+
+body {
+	background-image: url("../../assets/images/vectorstock_928690.jpg" ); 
+	
+	background-repeat: repeat;
+	background-attachment: absolute ; 
+	background-size: 50%;
+    font-size: 20px;
+    line-height: 26px;
+}
+div#GameStart{
+	margin-top: 10%;
+	left: 20%;
+    padding: 25%;
+	background-color: #d7e0e0;
+	
+	position: absolute;
+    
+    z-index: 1;
+}
+div#GameEnd{
+	margin-top: 10%;
+	left: 20%;
+    padding: 25%;
+	background-color: #d7e0e0;
+	
+	position: absolute;
+    
+    z-index: 2;
+}
+div#transbox{
+	
+	margin: 100px;
+       background-color: #d7e0e0;
+      opacity: 0.8;
+       padding: 20px;
+       border: 1px solid black;
+       font-weight: bold;
+ 	color: black;
+  }
+
+ div#transbox p{
+   text-align: center;
+ }
+ .content{
+ 	margin-left: 20%;
+ 	margin-right: 20%;
+ }
+ .checkbox-inline{
+ 	font-weight: bold;
+ 	color: black;
+ }
+ h1{
+ 	font-size: 50px;
+ 	text-align: center;
+ }
+ .btn-default{
+ 	opacity: 1.0;
+ 	font-size: 30px;
+    
+    color:#2489a8;
+ }
+ footer{
+ 	text-align: center;
+ 	color: #b3a1a3;
+ }
